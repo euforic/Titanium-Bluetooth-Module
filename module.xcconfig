@@ -26,4 +26,6 @@
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
 
+OTHER_LDFLAGS=$(inherited) -framework UIKit
+OTHER_LDFLAGS=$(inherited) -framework AudioToolbox
 OTHER_LDFLAGS=$(inherited) -framework GameKit

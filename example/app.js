@@ -13,4 +13,7 @@ window.open();
 // TODO: write your module tests here
 var bluetoothmodule = require('co.euforic.efcblue');
 Ti.API.info("module is => "+bluetoothmodule);
+var connectBtn = Ti.UI.createButton({height:50, width:100, title:'CLICK HERE'});
+window.add(connectBtn);
+connectBtn.addEventListener('click', function() { bluetoothmodule.startPicker(); });
 

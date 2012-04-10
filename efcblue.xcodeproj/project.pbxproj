@@ -25,6 +25,8 @@
 		1436153E1533B963002B7B65 /* SessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1436153C1533B963002B7B65 /* SessionManager.h */; };
 		1436153F1533B963002B7B65 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1436153D1533B963002B7B65 /* SessionManager.m */; };
 		143615441533BA74002B7B65 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143615431533BA74002B7B65 /* GameKit.framework */; };
+		143615501533C400002B7B65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1436154F1533C400002B7B65 /* UIKit.framework */; };
+		143615531533C4D1002B7B65 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143615521533C4D1002B7B65 /* AudioToolbox.framework */; };
 		24DD6CF91134B3F500162E58 /* CoEuforicEfcblueModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* CoEuforicEfcblueModule.h */; };
 		24DD6CFA1134B3F500162E58 /* CoEuforicEfcblueModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* CoEuforicEfcblueModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* CoEuforicEfcblueModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* CoEuforicEfcblueModuleAssets.h */; };
@@ -49,6 +51,8 @@
 		143615411533B97F002B7B65 /* module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = module.xcconfig; sourceTree = "<group>"; };
 		143615421533B9F4002B7B65 /* example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = example; sourceTree = "<group>"; };
 		143615431533BA74002B7B65 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		1436154F1533C400002B7B65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		143615521533C4D1002B7B65 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		24DD6CF71134B3F500162E58 /* CoEuforicEfcblueModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoEuforicEfcblueModule.h; path = Classes/CoEuforicEfcblueModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* CoEuforicEfcblueModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoEuforicEfcblueModule.m; path = Classes/CoEuforicEfcblueModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143615531533C4D1002B7B65 /* AudioToolbox.framework in Frameworks */,
+				143615501533C400002B7B65 /* UIKit.framework in Frameworks */,
 				143615441533BA74002B7B65 /* GameKit.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
@@ -95,6 +101,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				143615521533C4D1002B7B65 /* AudioToolbox.framework */,
+				1436154F1533C400002B7B65 /* UIKit.framework */,
 				143615431533BA74002B7B65 /* GameKit.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
